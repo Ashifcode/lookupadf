@@ -1,0 +1,9 @@
+{
+	"name": "adfsight",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "58a5ab0a-e03c-4efa-b7ac-58f0b00cfb49",
+		"tenantId": "13633b73-7ec9-42b9-927f-44308174e564"
+	}
+}
