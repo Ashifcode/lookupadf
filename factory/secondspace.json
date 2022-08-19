@@ -1,0 +1,9 @@
+{
+	"name": "secondspace",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9363ee54-c36d-40fe-b872-40066fed78bc",
+		"tenantId": "b3fc2dcf-91ff-4179-9cfe-502451da43c8"
+	}
+}

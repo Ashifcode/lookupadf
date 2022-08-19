@@ -1,0 +1,20 @@
+{
+	"name": "ls_secondspace",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=secondspace.database.windows.net;Initial Catalog=secondspace;User ID=secondspace",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kv_secondspace",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "secondsecret",
+				"secretVersion": "ffa8946a8ede4d8cb73c9b3e719ca340"
+			}
+		}
+	}
+}
